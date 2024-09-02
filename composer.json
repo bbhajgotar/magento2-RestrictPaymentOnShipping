@@ -1,0 +1,20 @@
+{
+    "name": "y2b/RestrictPayment",
+    "description": "Stop Payment method on some shipping method",
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "magento/framework": "*"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Y2B\\RestrictPayment\\": ""
+        }
+    },
+    "version": "1.0.0"
+}
